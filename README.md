@@ -1,11 +1,21 @@
-<div align="center">
+# Meridian Assessment — International English Testing & Preparation Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Independent international English language testing and mock examination platform covering **IELTS Academic & General Training**, **PTE Academic**, **TOEFL iBT**, and **General English CEFR** proficiency.
 
-  <h1>Built with AI Studio</h2>
+## Interfaces
+1. **Public Website (`/`, `/ielts`, `/pte`, `/toefl`, `/general-english`, `/mock-tests`, `/resources`, `/pricing`, `/about`, `/contact`, `/verify`, `/privacy`, `/terms`)**
+2. **Student Portal (`/portal`, `/portal/exams`, `/portal/attempt/:id`, `/portal/reports`, `/portal/reports/:id`, `/portal/profile`)**
+3. **Administrator Portal (`/admin`)**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Quick Start
+```bash
+npm install
+npm run test
+npm run dev
+```
+The Express + Vite server listens on `http://localhost:3000`.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Demo Credentials (Preview)
+- **Comprehensive Plan Student**: `student@meridian-assessment.org` / `Meridian2026!`
+- **Free Tier Student**: `starter@meridian-assessment.org` / `Meridian2026!`
+- **Administrator**: Open `/admin` to complete the one-time first-run administrator setup, or configure `ADMIN_PASSCODE` in server environment variables.

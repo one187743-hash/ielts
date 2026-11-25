@@ -1,0 +1,6 @@
+{
+  "name": "Meridian Assessment — International English Testing Platform",
+  "description": "Independent international English language testing and preparation platform for IELTS, PTE Academic, TOEFL iBT, and General English proficiency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
